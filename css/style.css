@@ -227,7 +227,7 @@ h5 {
 			}
 
 				#section-profileImage #box-name h2 {
-					color: #000;
+					color: #fff;
 					font: normal bold 36px/46px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 					letter-spacing: 3px;
 					text-transform: uppercase;
@@ -235,13 +235,13 @@ h5 {
 
 
 				#section-profileImage #box-name p {
-					color: #000;
-					font: normal 300 14px/24px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					color: #fff;
+					font: normal 300 19px/24px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 					margin-top: 10px;
 				}
 
 				#section-profileImage #box-name a {
-					color: #000;
+					color: #fff;
 				}
 
 					#section-profileImage #box-name a:hover {

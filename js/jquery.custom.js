@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 	// ScrollSpy automatically updates nav targets based on scroll position
 	// http://twitter.github.com/bootstrap/javascript.html#scrollspy
-	$('#nav').scrollspy();
+	// $('#nav').scrollspy();
 
 
 	// Wrap text in h3 with a span element to underline
@@ -82,6 +82,22 @@ $(document).ready(function(){
 });
 
 
+$(window).scroll(function(event) {
+	var scroll=$(this).scrollTop();
+	if(scroll>0&&scroll<300){
+		var calcop=1-scroll/300;
+		var mtcalc= (scroll/300)*50
+
+		// console.log(calcop)
+
+		$('#section-profileImage .columns').css({
+			'opacity': calcop,
+			'margin-top': mtcalc
+		});
+	}
+});
+
+
 
 
 $(window).load(function () {
@@ -90,8 +106,6 @@ $(window).load(function () {
 	var topbarHeight = $('#section-topbar').height() - 1;
 
 	$('body').css('padding-top', topbarHeight);
-
-
 });
 
 
