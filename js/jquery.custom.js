@@ -94,6 +94,9 @@ $(window).scroll(function(event) {
 			'opacity': calcop,
 			'margin-top': mtcalc
 		});
+
+		$('#section-profileImage').css({'background-position-y': mtcalc/1.1});
+
 	}
 });
 

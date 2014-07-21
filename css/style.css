@@ -48,14 +48,14 @@ p a, p a:visited { line-height: inherit; }
 
 /* Highlighted Text */
 ::selection { 
-	background: #44bbaa; 
+	background: #16a085; 
 	color:#fff; 
 	text-shadow: none; 
 }
 
 /* Firefox */
 ::-moz-selection { 
-	background: #44bbaa; 
+	background: #16a085; 
 	color:#fff; 
 	text-shadow: none; 
 }
@@ -65,7 +65,7 @@ strong { font-weight: bold; }
 small { font-size: 80%; }
 
 .font-color-primary {
-	color: #44bbaa;
+	color: #16a085;
 }
 
 .font-color-gray {
@@ -173,12 +173,12 @@ h5 {
 		}
 
 		#section-topbar ul#nav .active a {
-			background: #44bbaa;
+			background: #16a085;
 			border-left: 1px solid #111;
 		}
 
 			#section-topbar ul#nav .active a:hover {
-				background: #44bbaa;
+				background: #16a085;
 			}
 
 
@@ -213,7 +213,7 @@ h5 {
 
 		/* Profile Image (Full background) */
 		#section-profileImage  {
-			background: #222 url('../images/profile_main.jpg') no-repeat center center;
+			background: #000 url('../images/profile_main.jpg') no-repeat center center;
 			background-size: cover;
 			height: 440px;
 		}
@@ -245,13 +245,13 @@ h5 {
 				}
 
 					#section-profileImage #box-name a:hover {
-						color: #44bbaa;
+						color: #16a085;
 					}
 
 		/* About */
 		#section-about {
 			color: #fff;
-			background: #44bbaa;
+			background: #16a085;
 			padding: 40px 0;
 		}
 
@@ -274,14 +274,14 @@ h5 {
 				padding: 8px 0 8px 40px;
 				margin-bottom: 10px;
 			}
-
+/*
 			a.link-print {
 				background: url('../images/icons/icon_print.png') no-repeat left center;
 			}
 
 			a.link-pdf {
 				background: url('../images/icons/icon_pdf.png') no-repeat left center;
-			}
+			}*/
 
 
 
@@ -298,13 +298,13 @@ h5 {
 	}
 	
 		#section-resume .section-title {
-			color: #44bbaa;
+			color: #16a085;
 			padding: 50px 0;
 			display: none;
 		}
 
 		#section-resume h2 {
-			color: #44bbaa;
+			color: #16a085;
 		}
 
 		#section-resume h3 {
@@ -352,7 +352,7 @@ h5 {
 
 			#section-resume #box-profile a.link-email:hover,
 			#section-resume #box-profile a.link-phone:hover {
-				color: #44bbaa;
+				color: #16a085;
 			}
 
 		#section-resume .item {
@@ -369,7 +369,7 @@ h5 {
 				}
 			
 			#section-resume .item h4 {
-				color: #44bbaa;
+				color: #16a085;
 				font: normal 14px/24px 'PT Serif', Georgia, serif;
 			}
 		
@@ -417,7 +417,7 @@ h5 {
 			}
 
 			.box-skill.even .box-inner {
-				background-image: url('../images/alpha/bg_alpha15.png');
+				/*background-image: url('../images/alpha/bg_alpha15.png');*/
 			}
 
 			.box-skill h4 {
@@ -449,7 +449,7 @@ h5 {
 	
 	#section-works {
 		color: #222;
-		background: #f5f5f5;
+		background: #fdfdfd;
 		font: normal 16px/26px 'PT Serif', Georgia, serif;
 		padding: 80px 0;
 	}
@@ -458,6 +458,9 @@ h5 {
 			color: #333;
 			background: #fff;
 			margin-bottom: 40px;
+			-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	        moz-box-shadow: 0 8px 6px -6px #ccc;
+	        box-shadow: 0 8px 6px -6px #ccc;
 		}
 
 			#section-works .item.last {
@@ -564,7 +567,7 @@ h5 {
 
 				.reveal-modal a.link-details:hover {
 					color: #fff;
-					background: #44bbaa;
+					background: #16a085;
 				}
 
 			.reveal-modal a.close-reveal-modal {
@@ -579,7 +582,7 @@ h5 {
 			}
 
 				.reveal-modal a.close-reveal-modal:hover {
-					color: #44bbaa;
+					color: #16a085;
 					background: #000;
 				}
 
@@ -649,7 +652,7 @@ h5 {
 		#section-contact textarea:focus, 
 		#section-contact select:focus { 
 			color: #fff;
-			background-color: #44bbaa;
+			background-color: #16a085;
 		}
 		
 		#section-contact button.submit {
@@ -659,7 +662,7 @@ h5 {
 			display: block;
 			cursor: pointer;
 			color:#fff;
-			background:#44bbaa;
+			background:#16a085;
 			padding: 20px 28px;
 			border: none;
 			-moz-border-radius: 3px;
@@ -669,12 +672,12 @@ h5 {
 		}
 		
 		#section-contact button.submit:hover { 
-			color: #44bbaa;
+			color: #16a085;
 			background: #fff; 
 		}
 		
 		#section-contact span.required { 
-			color: #44bbaa;
+			color: #16a085;
 			font-size: 13px;  
 		} /* Select the color of the * if the field is required. */
 
@@ -702,11 +705,11 @@ h5 {
 
 		/* HTML5 Placeholder */
 		::-webkit-input-placeholder {
-		   color: #44bbaa;
+		   color: #16a085;
 		}
 
 		:-moz-placeholder {  
-			color: #44bbaa;
+			color: #16a085;
 		}
 
 
@@ -764,7 +767,7 @@ h5 {
 			}
 
 			#box-testimonials blockquote h4 {
-				color: #44bbaa;
+				color: #16a085;
 				font: normal 15px/25px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 				margin-top: 10px;
 			}
@@ -795,7 +798,7 @@ h5 {
 
 		#section-footer a { color: #fff; }
 
-		#section-footer a:hover { color: #44bbaa; }
+		#section-footer a:hover { color: #16a085; }
 
 
 		#section-footer ul#social {
@@ -816,10 +819,10 @@ h5 {
 
 		@media only screen and (max-width: 767px) {
 			#section-footer ul#social li a {
-				background: #44bbaa;
+				background: #16a085;
 			}
 		}
 
 		#section-footer ul#social li a:hover {
-			background: #44bbaa;
+			background: #16a085;
 		}
