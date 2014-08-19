@@ -1,3 +1,253 @@
+/*
+YUI 3.8.0 (build 5744)
+Copyright 2012 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: 20px; margin-right: 20px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns                     { width: 20px;  }
+    .container .two.columns                     { width: 80px; }
+    .container .three.columns                   { width: 140px; }
+    .container .four.columns                    { width: 200px; }
+    .container .five.columns                    { width: 260px; }
+    .container .six.columns                     { width: 320px; }
+    .container .seven.columns                   { width: 380px; }
+    .container .eight.columns                   { width: 440px; }
+    .container .nine.columns                    { width: 500px; }
+    .container .ten.columns                     { width: 560px; }
+    .container .eleven.columns                  { width: 620px; }
+    .container .twelve.columns                  { width: 680px; }
+    .container .thirteen.columns                { width: 740px; }
+    .container .fourteen.columns                { width: 800px; }
+    .container .fifteen.columns                 { width: 860px; }
+    .container .sixteen.columns                 { width: 920px; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: 60px;  }
+    .container .offset-by-two                   { padding-left: 120px; }
+    .container .offset-by-three                 { padding-left: 180px; }
+    .container .offset-by-four                  { padding-left: 240px; }
+    .container .offset-by-five                  { padding-left: 300px; }
+    .container .offset-by-six                   { padding-left: 360px; }
+    .container .offset-by-seven                 { padding-left: 420px; }
+    .container .offset-by-eight                 { padding-left: 480px; }
+    .container .offset-by-nine                  { padding-left: 540px; }
+    .container .offset-by-ten                   { padding-left: 600px; }
+    .container .offset-by-eleven                { padding-left: 660px; }
+    .container .offset-by-twelve                { padding-left: 720px; }
+    .container .offset-by-thirteen              { padding-left: 780px; }
+    .container .offset-by-fourteen              { padding-left: 840px; }
+    .container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .container .one.column,
+        .container .one.columns                     { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 348px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns { width: 300px; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+    }
+    
+    
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container { width: 420px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns { width: 420px; }
+    }
+
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+
+
+/* #Images
+================================================== */
+
+    img.scale-with-grid {
+      max-width: 100%;
+      height: auto;
+    }
+
+
+
+
+
+
 /*--------------------------------------------------------------------------
 	0. YUI Library is used for CSS reset (http://yuilibrary.com/yui/docs/cssreset/)
 	1. Body
@@ -209,6 +459,7 @@ h5 {
 	---------------------------------------------------*/
 
 	#section-intro {
+        background: #000;
 	}
 
 		/* Profile Image (Full background) */
@@ -216,15 +467,35 @@ h5 {
 			background: #000 url('../images/profile_main.jpg') no-repeat center center;
 			background-size: cover;
 			height: 440px;
+            opacity: 0;
+            -webkit-transition: opacity 1.6s;
+            -moz-transition: opacity 1.6s;
+            -o-transition: opacity 1.6s;
+            transition: opacity 1.6s;
 		}
+
+        #section-profileImage.active{
+            opacity: 1;
+        }
 
 			#section-profileImage #box-name {
 				color: #333;
 				font-size: 16px;
 				line-height: 26px;
-				margin-top: 180px;
+				margin-top: 220px;
 				text-align: left;
+                opacity: 0;
+                -webkit-transition: all .6s;
+                -moz-transition: all .6s;
+                -o-transition: all .6s;
+                transition: all .6s; 
 			}
+
+            #section-profileImage #box-name.active{
+                margin-top: 180px;
+                opacity: 1;
+            }
+            
 
 				#section-profileImage #box-name h2 {
 					color: #fff;
@@ -242,6 +513,10 @@ h5 {
 
 				#section-profileImage #box-name a {
 					color: #fff;
+                    -webkit-transition: color .3s;
+                    -moz-transition: color .3s;
+                    -o-transition: color .3s;
+                    transition: color .3s; 
 				}
 
 					#section-profileImage #box-name a:hover {
@@ -461,7 +736,26 @@ h5 {
 			-webkit-box-shadow: 0 8px 6px -6px #ccc;
 	        moz-box-shadow: 0 8px 6px -6px #ccc;
 	        box-shadow: 0 8px 6px -6px #ccc;
+            opacity: 0;
+            -webkit-transform:scale(1.3);
+            -moz-transform:scale(1.3);
+            -o-transform:scale(1.3);
+            transform:scale(1.3);
+
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
 		}
+
+        #section-works .item.active{
+            opacity: 0.8;
+            -webkit-transform:scale(1);
+            -moz-transform:scale(1);
+            -o-transform:scale(1);
+            transform:scale(1);
+        }
+
 
 			#section-works .item.last {
 				margin-bottom: 0px;
@@ -499,12 +793,12 @@ h5 {
 					}
 
 				#section-works .item p {
-					color: #aaa;
+					color: #777;
 					font: normal 12px/22px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				}
 
-					#section-works a:hover .item p {
-						color: #777;
+					#section-works a:hover .item{
+						opacity: 1;
 					}
 
 
@@ -826,3 +1120,437 @@ h5 {
 		#section-footer ul#social li a:hover {
 			background: #16a085;
 		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+		#section-works .item .work-info {
+			margin: 16px 20px 16px 0;
+		}
+
+			#section-works .item h4 {
+				font-size: 14px;
+				line-height: 23px;
+				margin-bottom: 10px;
+			}
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+        /* Adjust the site logo top/bottom margins */
+        #section-header {
+        }
+
+        	#section-profileImage {
+        		height: 240px;
+        	}
+
+        	#section-profileImage #box-name {
+        		margin-top: 80px;
+        	}
+
+				#section-profileImage #box-name h2 {
+					color: black;
+					font: normal bold 25px/35px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					letter-spacing: 3px;
+					text-transform: uppercase;
+					background: 
+					rgba(255,255,255,0.8);
+					width: 238px;
+				}
+
+			p.intro {
+				font: normal 13px/24px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				margin-bottom: 30px;
+			}
+
+		#section-resume {
+			padding: 60px 0;
+		}
+
+		#section-resume img.image-profile {
+			margin: 20px 0 30px 0;
+		}
+
+
+		.box-skill {
+			display: block;
+			float: none;
+			width: auto;
+		}
+
+			.box-skill .box-inner {
+				background: transparent;
+				height: auto;
+				padding: 0;
+			}
+
+			.box-skill.even .box-inner {
+				background: #fff;
+			}
+
+			.box-skill h4 {
+				color: #333;
+			}
+
+				.box-skill div > p {
+					color: #999;
+					font: normal 13px/23px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					margin: 10px 0 30px 0;
+				}
+
+
+				.box-skill div > p.last {
+					margin-bottom: 0;
+				}
+
+
+	#section-works {
+		color: #222;
+		background: #f5f5f5;
+		font: normal 16px/26px 'PT Serif', Georgia, serif;
+		padding: 60px 0;
+	}
+
+			#section-works .item {
+				background: transparent;
+			}
+
+			#section-works .item.last {
+				margin-bottom: 0px;
+			}
+
+				#section-works .img-wrap {
+					margin-bottom: 15px;
+				}
+
+			#section-works .item .work-info {
+				margin: 0;
+			}
+
+				#section-works .item span.category {
+					color: #999;
+					font: normal 11px/21px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+				}
+
+				#section-works .item h4 {
+					font-size: 14px;
+					line-height: 23px;
+					margin-bottom: 10px;
+				}
+
+					#section-works a:hover .item h4 {
+						color: #333;
+					}
+
+				#section-works .item p {
+					color: #aaa;
+					font: normal 12px/22px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				}
+
+					#section-works a:hover .item p {
+						color: #777;
+					}
+
+
+		.reveal-modal {
+			margin-left: -300px;
+			width: 600px;
+		}
+
+			.reveal-modal .box-modal {
+				padding: 10px 15px 15px 15px;
+			}
+
+				.reveal-modal .box-modal h4 {
+					font: normal 13px/21px 'PT Serif', Georgia, serif;
+					margin-bottom: 10px;
+				}
+
+				.reveal-modal .box-modal p {
+					font: normal 11px/21px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				}
+
+			.reveal-modal a.link-details,
+			.reveal-modal a.close-reveal-modal {
+				padding: 10px 15px;
+			}
+
+		#section-contact input, 
+		#section-contact textarea, 
+		#section-contact select { 
+			width: 260px;
+		}
+
+		#section-contact label.placeholder {
+			display: none;
+		}
+
+        /* Adjust footer social media menu */
+        #section-footer ul#social {
+            float: none;
+        }
+
+	        #section-footer p {
+	            margin: 40px 0 39px 0;
+	        }
+
+            #section-footer ul#social li a {
+                border-right: none;
+                margin-right: 1px;
+                padding: 15px;
+                margin-top: 1px;
+            }
+
+            #section-footer ul#social li a img {
+                width: 16px;
+            }
+    }
+
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------------------
+    
+    * Optimizations for print
+    * A lot of the contents are hidden for printing
+    
+--------------------------------------------------------------------------*/
+
+@media print {
+
+	#section-topbar,
+	#section-contact,
+	#section-works, 
+	#section-footer {
+	  display: none;
+	}
+
+	body {
+	  padding: 0!important;
+	}
+
+	/* Profile Image (Full background) */
+	#section-profileImage  {
+		background: transparent;
+		height: auto;
+	}
+
+		#section-profileImage #box-name {
+			color: #333;
+			font-size: 16px;
+			line-height: 26px;
+			margin-top: 30px!important;
+			text-align: center;
+		}
+
+			#section-profileImage #box-name h2 {
+				color: #222!important;
+			}
+
+
+			#section-profileImage #box-name p {
+				color: #666!important;
+				font: normal normal 14px/24px 'Open Sans', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				margin-top: 5px;
+				margin-bottom: 40px;
+			}
+
+			#section-profileImage #box-name a {
+				color: #666!important;
+			}
+
+	#section-about {
+	  padding: 0;
+	  margin-bottom: 40px;
+	}
+
+	p.intro {
+		color: #777;
+		font: normal 17px/30px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	#section-resume {
+	  padding: 0;
+	}
+
+	h3 {
+	  color: #bbb!important;
+	}
+
+	  h3 span.underline {
+	     border-bottom: 1px solid #bbb!important;
+	  }
+
+	#section-about p.intro {
+	  color: #333;
+	}
+
+	a.link-print,
+	a.link-pdf {
+	  display: none;
+	}
+
+	#section-resume {
+		padding: 0;
+	}
+
+		#section-resume h3 {
+			color: #444;
+			font: normal 300 12px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			padding-top: 0;
+			text-transform: uppercase;
+		}
+
+			#section-resume h3 span.underline {
+				padding-bottom: 3px;
+				border-bottom: 1px solid #444;
+			}
+
+		#section-resume img.profile-image {
+
+		}
+		
+		#section-resume .block {
+			margin-bottom: 40px;
+		}
+
+			#section-resume .block.last {
+				margin-bottom: 0px;
+			}
+			
+			#section-resume .item {
+				margin-bottom: 40px;
+			}
+
+			#section-resume .item > div {
+				padding-top: 0;
+			}
+			
+			#section-resume .item h4 {
+				font: normal 17px/27px 'PT Serif', Georgia, serif;
+			}
+		
+			#section-resume .item div h4 + p {
+				color: #666;
+				font: normal 17px/27px 'PT Serif', Georgia, serif;
+				margin-top: 0;
+			}
+
+			#section-resume .item div p.desc {
+				color: #999;
+				font: normal 17px/27px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				margin-top: 15px;
+			}
+			
+			#section-resume .item div > p.date {
+				color: #555!important;
+				font: normal 13px/23px 'PT Serif', Georgia, serif;
+			}
+			
+			#section-resume .item div > p.date span.label {
+				display: inline-block;
+				color: #bbb;
+				background: #111;
+				padding: 0;
+			}
+
+		.box-skill {
+			width: auto;
+			float: none;
+			margin-bottom: 40px;
+
+			position: relative;
+			/* Assign a random z-index to let jQuery check for css @media print and turn off hover effects */
+			z-index: 1726;
+		}
+
+			.box-skill .box-inner {
+				padding: 0;
+				background: transparent;
+				height: auto;
+			}
+
+			.box-skill.even .box-inner {
+				background: transparent;
+			}
+
+			.box-skill h4 {
+				color: #333;
+				font: bold 17px/27px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+
+				.box-skill div > p {
+					display: none;
+				}
+}
+
+
+
+
+
+
+
+
+
+
+    
