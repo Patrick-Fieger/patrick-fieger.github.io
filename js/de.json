@@ -131,7 +131,7 @@
 		{
 			"id":"pro1",
 			"header1":"PROJEKTBESCHREIBUNG:",
-			"desc":"Syncofy ist eine moderne Suchmaschine für Musiklizenzierung. Dort enwickelte ich vor allem das Front-End und arbeitet am UX und UI mit.",
+			"desc":"Syncofy ist eine moderne Suchmaschine für Musiklizenzierung. Dort entwickelte ich vor allem das Front-End und arbeitet am UX und UI mit.",
 			"client":"Syncofy",
 			"timestamp":"ZEITSPANNE:",
 			"timestamp_":"Dezember 2011 bis Juni 2014",
@@ -142,7 +142,7 @@
 		{
 			"id":"pro2",
 			"header1":"PROJEKTBESCHREIBUNG:",
-			"desc":"Die 'alte' Version von Fieger Lamellenfenster ist noch online, aber das wird sich noch im laufe des Jahres noch ändern. Die gesamte Programmierung ist von mir übernommen worden.",
+			"desc":"Die 'alte' Version von Fieger Lamellenfenster ist noch online, aber das wird sich noch im laufe des Jahres ändern. Die gesamte Programmierung ist von mir übernommen worden.",
 			"client":"Fieger Lamellenfenster",
 			"timestamp":"ZEITSPANNE:",
 			"timestamp_":"September 2011 bis Februar 2012",
@@ -153,7 +153,7 @@
 		{
 			"id":"pro3",
 			"header1":"PROJEKTBESCHREIBUNG:",
-			"desc":"Die Website habe ich in Cooparation erarbeitet und umgesetzt. Die Programmierung ist auch in diesem Fall von mir gewesen. Für dieses Projekt habe ich zwei Awards gewonnen, mehr dazu weiter unten...",
+			"desc":"Die Website habe ich in Corporation erarbeitet und umgesetzt. Die Programmierung ist auch in diesem Fall von mir gewesen. Für dieses Projekt habe ich zwei Awards gewonnen, mehr dazu weiter unten...",
 			"client":"JN Mediendesign",
 			"timestamp":"ZEITSPANNE:",
 			"timestamp_":"Januar 2011 bis August 2011",
@@ -164,7 +164,7 @@
 	],
 	"coding":"Ich bin leidenschaftlicher Programmierer. Ich habe einige meiner Arbeiten auf Github hochgeladen. Hier kannst du dir meinen Code anschauen. Einfach unten draufklicken.",
 	"awards":{
-		"text":"Die beiden untenstehenden Awards habe ich für meine Arbeit an der Website für JN Mediendesign gewonnen. Diese Seite ist leider nicht mehr online. Screenshots können auf <a href='http://www.jn-mediendesign.com/index.php/jn-mediendesign' target='_blank'>JN Mediendesign</a> angeschaut werden.",
+		"text":"Die beiden Awards habe ich für meine Arbeit an der Website für JN Mediendesign gewonnen. Diese Seite ist leider nicht mehr online. Screenshots können auf <a href='http://www.jn-mediendesign.com/index.php/jn-mediendesign' target='_blank'>JN Mediendesign</a> angeschaut werden.",
 		"items":[
 			{
 				"href":"http://www.csswinner.com/details/jn-mediendesign/909",
