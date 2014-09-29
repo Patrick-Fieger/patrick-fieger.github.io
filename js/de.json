@@ -6,14 +6,14 @@
 			"header1":"Willkommen auf meine Seite",
 			"text1":"Mein Name ist Patrick Fieger, bin 23 Jahre alt und komme aus Weinheim nähe Heidelberg.<br> Ich bin leidenschaftlicher Entwickler und studiere im Moment an der Hochschule Darmstadt - Interactive Media Design.",
 			"header2":"Warum sie mich wollen?",
-			"text2":"Ich bin ein talentierter junger Typ der immer auf der Suche nach neuen Abenteuern und Herausforderungen ist. Falls sie noch nicht überzeugt sind, schauen sie sich einfach den Rest der Seite an.",
-			"text3":"Im Moment arbeite ich an der neuen Website für <a href='http://fieger-lamellenfenster.com'>Fieger Lamellenfenster</a>. Eine mittelständische Firma die sich auf die Herstellung von Lamellenfenstern spezialisiert hat.<br><strong>Jedoch bin ich für Freelance-Arbeiten verfügbar.</strong>",
+			"text2":"Ich bin ein junger talentierter Typ der immer auf der Suche nach neuen Abenteuern und Herausforderungen ist. Falls sie noch nicht überzeugt sind, schauen sie sich einfach den Rest der Seite an.",
+			"text3":"Im Moment arbeite ich an der neuen Website für <a href='http://fieger-lamellenfenster.com'>Fieger Lamellenfenster</a>. Eine mittelständische Firma die sich auf die Herstellung von Lamellenfenstern spezialisiert hat.<br><strong>Dennoch stehe ich für Freelance-Arbeiten jederzeit zur Verfügung.</strong>",
 			"greetings":"Liebe Grüße,"
 		}
 	},
 	"skills":{
 		"text1":"Fähigkeiten die ich mir über die Jahre angeeignet habe (natürlich nur geschätzt).",
-		"text2":"Ich habe mich vielen verschiedenen Bereichen widment können und so war ich in der Lage, eine Menge Erfahrungen in verschiedenen Disziplinen zu gewinnen. Wenn ie Fragen in Bezug auf meine Fähigkeiten haben, zögern Sie nicht, mit mir in Kontakt zu treten.",
+		"text2":"Ich habe mich vielen verschiedenen Bereichen widmen können und so war ich in der Lage, eine Menge Erfahrungen in verschiedenen Disziplinen zu gewinnen. Wenn ie Fragen in Bezug auf meine Fähigkeiten haben, zögern sie nicht, mit mir in Kontakt zu treten.",
 		"knob":[
 			{
 				"label":"HTML5",
