@@ -1,235 +1,188 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Patrick Fieger</title>
-        <meta name="description" content="Hallo, mein Name ist Patrick Fieger, 22 Jahre alt und Student an der Hochschule Darmstadt im Bereich - Interactive Media Design">
-        <meta name="author" content="Patrick Fieger">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="shortcut icon" href="images/favicon.ico">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patrick Fieger - Webdeveloper</title>
+        <meta name="description" content="Patrick Fieger" />
+        <meta name="keywords" content="Patrick Fieger" />
+        <meta name="author" content="Patrick Fieger" />
+        <link rel="shortcut icon" href="img/fav/favicon.ico">
+        <link rel="apple-touch-icon" href="img/fav/apple-touch-icon.png">
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
     </head>
-    <body data-spy="scroll" data-target="#section-topbar" data-offset="60">
-        <div id="section-intro">
-            <div id="section-profileImage">
+            <body>
+                <div id="loader-wrapper">
+                    <div id="loader"></div>
+                    <div class="loader-section section-left"></div>
+                    <div class="loader-section section-right"></div>
+                </div>
                 <div class="container">
-                    <div class="sixteen columns">
-                        <div id="box-name">
-                            <h2>Patrick Fieger</h2>
-                            <p>Web Developer<span class="font-color-primary"> / </span><a href="mailto:patrick@patrick-fieger.com" class="link-email">patrick@patrick-fieger.com</a></p>
+                    <div class="language">
+                            <a href="#" class="changelang" data-lang="de">Deutsch </a><span> | </span>
+                            <a href="#" class="changelang" data-lang="en"> English</a>
+                    </div>
+                    <div class="welcome" id="welcome">
+                        <h1><span data-jst-content="title"></span><span id="typed"></span></h1>
+                        <div class="icon-down scrollabout"></div>
+                    </div>
+                    <div class="about">
+                        <h1 class="breaker first" data-jst-content="about.header"></h1>
+                        <div class="row">
+                            <div class="small_img">
+                                <img class="picture_me animated" data-animation-delay="300" data-animation="fadeIn" src="img/me.jpg">
+                            </div>
+                            <div class="large-9 column animated" data-animation-delay="150" data-animation="fadeInRight">
+                                <h2 data-jst-content="about.text.header1"></h2>
+                                <p data-jst-content="about.text.text1"></p>
+                                <h2 data-jst-content="about.text.header2"></h2>
+                                <p data-jst-content="about.text.text2"></p>
+                                <p data-jst-content="about.text.text3"></p>
+                                <p data-jst-content="about.text.greetings"></p>
+                                <img src="img/signature_me.jpg">
+                                <p>Patrick Fieger</p>
+                            </div>
+                            <div class="large-3 column big_pic_wrap">
+                                <img class="picture_me animated" data-animation-delay="300" data-animation="fadeIn" src="img/me.jpg">
+                            </div>
                         </div>
                     </div>
-                    <div class="clear"></div>
+                    <div class="skills">
+                        <div class="row">
+                            <div class="large-6 column">
+                                <h3>SKILLS</h3>
+                                <p data-jst-content="skills.text1"></p>
+                                <p data-jst-content="skills.text2"></p>
+                            </div>
+                            <div class="large-6 column">
+                                <div class="large-4 small-6 column knob_wrapper" data-jst-select="skills.knob">
+                                    <input class="knob animated-knob" data-width="100" data-height="100" data-displayprevious="true" data-readonly="true" value="0" data-jst-values="rel=$this.level" data-fgcolor="#fff" data-thickness="0.15" data-bgcolor="#222" readonly="readonly">
+                                    <label data-jst-content="$this.label"></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lebenslauf">
+                        <h1 class="breaker" data-jst-content="cv.headings[0]"></h1>
+                        <div class="row">
+                            <div class="large-3 column">
+                                <h2 data-jst-content="cv.headings[1]"></h2>
+                            </div>
+                            <div class="large-9 column cv_item animated" data-animation-delay="150" data-jst-select="cv.ed" data-jst-values="data-animation=$this.animation">
+                                <div class="large-9 column">
+                                    <h3 data-jst-content="$this.title"></h3>
+                                    <p><span class="icon-location"></span>
+                                    <span data-jst-content="$this.location"></span></p>
+                                    <p data-jst-content="$this.desc"></p>
+                                    <hr data-jst-if="$this.hr==true">
+                                </div>
+                                <div class="large-3 column">
+                                    <p data-jst-content="$this.time"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top:100px">
+                            <div class="large-3 column">
+                                <h2 data-jst-content="cv.headings[2]"></h2>
+                            </div>
+                            <div class="large-9 column cv_item animated" data-animation-delay="150" data-jst-select="cv.work" data-jst-values="data-animation=$this.animation">
+                                <div class="large-9 column">
+                                    <h3 data-jst-content="$this.title"></h3>
+                                    <p><span class="icon-location"></span>
+                                    <span data-jst-content="$this.location"></span></p>
+                                    <p data-jst-content="$this.desc"></p>
+                                    <hr data-jst-if="$this.hr==true">
+                                </div>
+                                <div class="large-3 column">
+                                    <p data-jst-content="$this.time"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projekte">
+                        <h1 class="breaker" data-jst-content="project.header"></h1>
+                        <div class="grid">
+                            <figure class="effect-ruby animated" data-animation-delay="100" data-animation="zoomIn" data-jst-select="project.objects">
+                                <img data-jst-values="src=$this.src" src="" alt="img10"/>
+                                <figcaption>
+                                <h2 data-jst-content="$this.title"></h2>
+                                <p data-jst-content="$this.open_text"></p>
+                                <a href="#" data-jst-values="data-pro=$this.pro"></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="project_wrapper">
+                            <div class="portfolio-close"><span>close</span></div>
+                            <div class="project_item" data-jst-select="project_items" data-jst-values="id=$this.id">
+                                <div class="row">
+                                    <div class="large-8 column">
+                                        <h1 data-jst-content="$this.header1"></h1>
+                                        <p data-jst-content="$this.desc"></p>
+                                    </div>
+                                    <div class="large-4 column">
+                                        <h5>NAME:</h5>
+                                        <p data-jst-content="$this.client"></p>
+                                        <h5 data-jst-content="$this.timestamp"></h5>
+                                        <p data-jst-content="$this.timestamp_"></p>
+                                        <h5>URL:</h5>
+                                        <p><a data-jst-values="href=$this.href" data-jst-content="$this.href_" target="_blank"></a></p>
+                                        <h5>TAGS:</h5>
+                                        <p style="margin-top:15px">
+                                        <span class="tagIcon" data-jst-select="$this.tags" data-jst-content="$this"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coding">
+                        <h1 class="breaker" style="margin-bottom:50px">CODING</h1>
+                        <div class="row animated" data-animation-delay="300" data-animation="fadeIn">
+                            <h3 data-jst-content="coding"></h3>
+                            <a href="https://github.com/Patrick-Fieger" target="blank" class="icon-github big_g_icon"></a>
+                        </div>
+                    </div>
+                    <div class="awards">
+                        <h1 class="breaker" style="margin-bottom:50px">AWARDS</h1>
+                        <div class="row animated" data-animation-delay="300" data-animation="fadeIn">
+                            <h3 data-jst-content="awards.text"></h3>
+                            <div class="awards_inner">
+                                <div class="large-6 column" data-jst-select="awards.items">
+                                    <a data-jst-values="href=$this.href|class=$this.class" target="_blank" >
+                                        <span style="display:none">CSS Winner</span>
+                                    </a>
+                                    <p class="award_desc" data-jst-content="$this.desc"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div id="section-about">
-                <div class="container">
-                    <div class="three columns">
-                        <h3>Über mich</h3>
-                    </div>
-                    <div class="thirteen columns">
-                        <p class="intro">Hallo, mein Name ist Patrick Fieger, 23 Jahre alt und Student an der Hochschule Darmstadt im Bereich - Interactive Media Design.
-                        Ich bin seit ca. 8 Jahren leidenschaftlicher Webdeveloper. Was ich so drauf habe? Mehr dazu weiter unten ;)
-                        </p>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-        <div id="section-resume">
-            <div class="container">
-                <div class="block">
-                    <div class="three columns">
-                        <h3>Schule/Studium</h3>
-                    </div>
-
-                    <div class="thirteen columns">
-                        <div class="item">
-                            <div class="nine columns alpha no-border">
-                                <h4>Bachelor of Arts<span class="font-color-gray"> in Interactive Media Design</span></h4>
-                                <p>
-                                <span class="italic font-color-black">Hochschule Darmstadt</span><br />
-
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">
-                                Abschluss 2015<br />
-                                <span class="label">In Bearbeitung</span>
-                                </p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="clear"></div>
-
-                        <div class="item">
-                            <div class="nine columns alpha">
-                                <h4>Bachelor of Sience <span class="font-color-gray">Informatik</span></h4>
-                                <p>
-                                <span class="italic font-color-black">Hochschule Mannheim</span><br />
-
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">2011 bis 2012<br />
-                                <span class="label">"Umwege erhöhen die Ortskenntnis" - Kurt Tucholski</span></p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-                        <div class="item">
-                            <div class="nine columns alpha">
-                                <h4>Berufsschule<span class="font-color-gray"> Technik und Medien</span></h4>
-                                <p>
-                                <span class="italic font-color-black">Hans-Freudenberg-Schule Weinheim</span><br />
-
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">2007-2009<br />
-                                <span class="label">staatlich geprüfter Kommunikationsassistent+ <br>
-                                Fachhochschulreife
-                                </span></p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="clear"></div>
-                        <div class="item">
-                            <div class="nine columns alpha">
-                                <h4>Realschule</h4>
-                                <p>
-                                <span class="italic font-color-black">Dietrich-Bonhoeffer-Schule Weinheim</span><br />
-
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">2001-2007<br />
-                                <span class="label">Mittlere Reife</span></p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="clear"></div>
-                </div>
-
-
-                <div class="block">
-                    <div class="three columns">
-                        <h3>Arbeit und Praktika</h3>
-                    </div>
-
-                    <div class="thirteen columns">
-                        <div class="item">
-                            <div class="nine columns alpha">
-                                <h4>Web-Developer</h4>
-                                <p>
-                                <span class="font-color-black italic">Syncofy™</span>
-                                </p>
-                                <p class="desc">
-                                Ich arbeitete von Ende 2011 bis Juli 2014 als Front-End-Developer bei Syncofy™.
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">seit Ende 2011</p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-
-                        <div class="clear"></div>
-                        <div class="item">
-                            <div class="nine columns alpha">
-                                <h4>Marketing und IT Praktikum</h4>
-                                <p>
-                                <span class="font-color-black italic">[di] digitale informationssysteme Mannheim</span>
-                                </p>
-                                <p class="desc">
-                                Hier habe ich ein einjähriges Praktikum gemacht und viel über Marketing, Projektmanagement, Webdesign, Programmierung und über mich selbst gelernt. Das war sozusagen der Startschuss für meine "Karriere".
-                                </p>
-                            </div>
-
-                            <div class="four columns omega">
-                                <p class="date">Mai 2010 - Februar 2011</p>
-                            </div>
-
-                            <div class="clear"></div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-        <div id="section-works">
-            <div class="container">
-                <div class="three columns">
-                    <h3>Arbeiten & Projekte</h3>
-                </div>
-                <div class="thirteen columns">
-                    <a class="work_elem" href="http://www.syncofy.com" target="_blank">
-                    <div class="item">
-                        <div class="eight columns alpha">
-                            <img src="images/work_item01.jpg" alt="" />
-                        </div>
-                        <div class="five columns omega">
-                            <div class="work-info">
-                                <span class="category">Music Licensing Platform</span>
-                                <h4>Syncofy™</h4>
-                                <p>Ich arbeitete von Ende 2011 bis Juli 2014 als Front-End-Developer bei Synocfy.<br>Einfach auf's Bild klicken...</p>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    </a>
-                    <a class="work_elem" href="http://www.fieger-lamellenfenster.de" target="_blank">
-                    <div class="item">
-                        <div class="eight columns alpha">
-                            <img src="images/work_item02.jpg" alt="" />
-                        </div>
-                        <div class="five columns omega">
-                            <div class="work-info">
-                                <span class="category">Website Relaunch</span>
-                                <h4>Fieger Lamellenfenster GmbH</h4>
-                                <p>Webite Relaunch für die Firma meines Onkels. Konzeption und Umsetzung kamen von mir.<br>Einfach auf's Bild klicken...</p>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    </a>
-                    <a class="work_elem" href="downloads/CSSW-Certificate.pdf" target="_blank">
-                    <div class="item">
-                        <div class="eight columns alpha">
-                            <img src="images/work_item03.jpg" alt="" />
-                        </div>
-                        <div class="five columns omega">
-                            <div class="work-info">
-                                <span class="category">CSS Winnner</span>
-                                <h4>JN Mediendesign</h4>
-                                <p>"Site of the day" am 11. September 2011. Hierfür gab es ein Zertifikat.<br>Einfach auf's Bild klicken...</p>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="js/patrick.js"></script>
-    </body>
-</html>
+                <footer id="footer">
+                    <canvas id="bubble"></canvas>
+                    <p>© Patrick Fieger 2014</p>
+                    <a target="_blank" href="https://www.facebook.com/patrickfieger" class="animated icon-facebook" data-animation-delay="500" data-animation="fadeIn"></a>
+                    <a target="_blank" href="https://twitter.com/Patrickfieger" class="animated icon-twitter" data-animation-delay="400" data-animation="fadeIn"></a>
+                    <a target="_blank" href="http://www.linkedin.com/pub/patrick-fieger/64/b7b/420" class="animated icon-linkedin" data-animation-delay="300" data-animation="fadeIn"></a>
+                    <a target="_blank" href="https://github.com/Patrick-Fieger" class="animated icon-github" data-animation-delay="200" data-animation="fadeIn"></a>
+                    <a target="_blank" href="mailto:patrickfieger90@gmail.com" class="animated icon-paperplane" data-animation-delay="100" data-animation="fadeIn"></a>
+                </footer>
+            </body>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script type="text/javascript">
+                 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)){$('.skills').addClass('fixed');$('body').removeClass('hidden');$('.welcome').hide();}
+            </script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.waitforimages/1.5.0/jquery.waitforimages.min.js"></script>
+            <script src="js/template.js"></script>
+            <script src="js/knob.js"></script>
+            <script src="js/typed.js"></script>
+            <script src="js/way.js"></script>
+            <script src="js/animation.js"></script>
+            <script src="js/patrick.js"></script>
+        </html>

@@ -1,0 +1,181 @@
+{
+	"title":"I'm ",
+	"about":{
+		"header":"ABOUT ME",
+		"text":{
+			"header1":"Welcome to my site",
+			"text1":"My name Patrick Fieger, 23 y/o living in Weinheim near Heidelberg, Germany.<br> I'm a passionated Developer and studing at the University of applied science Darmstadt - Interactive Media Design.",
+			"header2":"Why you want me?",
+			"text2":"I am a talented, handsome and young guy, always looking for new challenges. If this does not convince you yet then have a look at the rest of this site. I'm sure this helps.",
+			"text3":"At the moment I'm working on a website-relaunch for <a href='http://fieger-lamellenfenster.com'>Fieger Lamellenfenster</a>. A company which is spezialized in building louvre window.<br><strong>However I am also available for freelance work.</strong>",
+			"greetings":"Best regards,"
+		}
+	},
+	"skills":{
+		"text1":"Skills I gained over the years. Everything is of course approximately.",
+		"text2":"I am dedicated to a lot of different fields. So I was able to gain a lot of experiences in various disciplines. If you have any questions regarding my skills, don't hesitate to get in contact with me.",
+		"knob":[
+			{
+				"label":"HTML5",
+				"level":"87"
+			},
+			{
+				"label":"CSS3",
+				"level":"90"
+			},
+			{
+				"label":"JQUERY",
+				"level":"93"
+			},
+			{
+				"label":"ANGULAR JS",
+				"level":"45"
+			},
+			{
+				"label":"SOFT SKILLS",
+				"level":"85"
+			},
+			{
+				"label":"MANAGEMENT",
+				"level":"80"
+			}
+		]
+	},
+	"cv":{
+		"headings":["CURRICULUM VITAE","EDUCATION","WORK"],
+		"ed":[
+			{
+				"title":"Beachelor of Arts - Interactive Media Design",
+				"animation":"fadeInRight",
+				"location": "University Darmstadt",
+				"desc":"At the moment I am studying at the University of Darmstadt. We develop touch tables , websites , apps and many more.",
+				"time":"Graduation 2016",
+				"hr":true
+			},
+			{
+				"title":"Bachelor of Sience - Computer Science",
+				"animation":"fadeInRight",
+				"location": "University Mannheim",
+				"desc":"At the University of Mannheim , I studied computer science for two semesters. Detours increase the local knowledge.",
+				"time":"2011 - 2012",
+				"hr":true
+			},
+			{
+				"title":"Vocational school technology and media / Technical Communication",
+				"animation":"fadeInLeft",
+				"location": "Hans-Freudenberg-School Weinheim",
+				"desc":"On the Hans Freudenberg school I completed my schooling ( certified communication assistant) and also acquired my college entrance.",
+				"time":"2007 - 2009",
+				"hr":true
+			},
+			{
+				"title":"Middleschool",
+				"animation":"fadeInRight",
+				"location": "Dietrich-Bonhoeffer-School Weinheim",
+				"desc":"Basic learning ;)",
+				"time":"2001 - 2007",
+				"hr":false
+			}
+		],
+		"work":[
+			{
+				"title":"Fieger Louvre Window - Web-Developer",
+				"animation":"fadeInLeft",
+				"location": "Birkenau",
+				"desc":"Here I am working currently on a website relaunch including a louvre window calculation tool. The website and the calculation is based on Angular JS.",
+				"time":"Juni 2014 - bis jetzt",
+				"hr":true
+			},
+			{
+				"title":"Syncofy - Web-Developer",
+				"animation":"fadeInRight",
+				"location": "Los Angeles / Heidelberg",
+				"desc":"I worked as a Web Developer and I was responsible for front-end development the UX and the UI.",
+				"time":"Dezember 2011 - June 2014",
+				"hr":true
+			},
+			{
+				"title":"[di] digitale informationssysteme - IT and Marketing",
+				"animation":"fadeInLeft",
+				"location": "Mannheim",
+				"desc":"Here I have a one-year internship and learned a lot about marketing, project management , web design, programming and about myself. That was sort of the start of my 'career'.",
+				"time":"May 2010 - February 2011",
+				"hr":false
+			}
+		]
+	},
+	"project":{
+		"header":"Projects",
+		"objects":[
+			{
+				"src":"img/w_1.jpg",
+				"title":"SYNCOFY",
+				"open_text":"Show project info",
+				"pro":"pro1"
+			},
+			{
+				"src":"img/w_2.jpg",
+				"title":"FIEGER LOUVRE WINDOW",
+				"open_text":"Show project info",
+				"pro":"pro2"
+			},
+			{
+				"src":"img/w_3.jpg",
+				"title":"JN MEDIADESIGN",
+				"open_text":"Show project info",
+				"pro":"pro3"
+			}
+		]
+	},
+	"project_items":[
+		{
+			"id":"pro1",
+			"header1":"PROJECT DESCRIPTION:",
+			"desc":"Syncofy is a modern search engine for music licensing. I developed especially the front-end and worked on UX and UI.",
+			"client":"Syncofy",
+			"timestamp":"TIMEFRAME:",
+			"timestamp_":"Dezember 2011 bis June 2014",
+			"href":"http://syncofy.com",
+			"href_":"www.syncofy.com",
+			"tags":["UI","UX","HTML5","CSS3","JAVASCRIPT/JQUERY"]
+		},
+		{
+			"id":"pro2",
+			"header1":"PROJECT DESCRIPTION:",
+			"desc":"The ' old ' version of Fieger Louvre Window is still online, but that will change at the end of the year. All programming has been done by me.",
+			"client":"Fieger Lamellenfenster",
+			"timestamp":"TIMEFRAME:",
+			"timestamp_":"September 2011 bis Februar 2012",
+			"href":"http://fieger-lamellenfenster.de",
+			"href_":"www.fieger-lamellenfenster.de",
+			"tags":["UI","UX","HTML5","CSS3","JAVASCRIPT/JQUERY"]
+		},
+		{
+			"id":"pro3",
+			"header1":"PROJECT DESCRIPTION:",
+			"desc":"I have developed and implemented the site in cooparation. The programming was also in this case from me. For this project I have won two awards, more on that at the end of the site...",
+			"client":"JN Mediadesign",
+			"timestamp":"TIMEFRAME:",
+			"timestamp_":"January 2011 - August 2011",
+			"href":"http://www.jn-mediendesign.com/",
+			"href_":"www.jn-mediendesign.com",
+			"tags":["UI","UX","HTML5","CSS3","JAVASCRIPT/JQUERY"]
+		}
+	],
+	"coding":"I'm a passionated programmer. I got some things up on Github so why don't you go ahead and fork me? Just click the cat below.",
+	"awards":{
+		"text":"The two following awards I've won for my work on the website for JN Mediadesign. This page is no longer online. Screenshots can be viewed on <a href='http://www.jn-mediendesign.com/index.php/jn-mediendesign' target='_blank'>JN Mediendesign</a>.",
+		"items":[
+			{
+				"href":"http://www.csswinner.com/details/jn-mediendesign/909",
+				"class":"logo_css2",
+				"desc":"Site of the day on 10th September 2011."
+			},
+			{
+				"href":"http://www.cssdesignawards.com/sites/jn-mediendesign/5440/",
+				"class":"logo_css1",
+				"desc":"Site of the day on 13th September 2011."
+			}
+		]
+	}
+}
