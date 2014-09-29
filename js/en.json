@@ -4,10 +4,10 @@
 		"header":"ABOUT ME",
 		"text":{
 			"header1":"Welcome to my site",
-			"text1":"My name Patrick Fieger, 23 y/o living in Weinheim near Heidelberg, Germany.<br> I'm a passionated Developer and studing at the University of applied science Darmstadt - Interactive Media Design.",
+			"text1":"My name Patrick Fieger, 23 y/o living in Weinheim near Heidelberg, Germany.<br> I'm a passionated Developer and studying at the University of applied science Darmstadt - Interactive Media Design.",
 			"header2":"Why you want me?",
 			"text2":"I am a talented, handsome and young guy, always looking for new challenges. If this does not convince you yet then have a look at the rest of this site. I'm sure this helps.",
-			"text3":"At the moment I'm working on a website-relaunch for <a href='http://fieger-lamellenfenster.com'>Fieger Lamellenfenster</a>. A company which is spezialized in building louvre window.<br><strong>However I am also available for freelance work.</strong>",
+			"text3":"At the moment I'm working on a website-relaunch for <a href='http://fieger-lamellenfenster.com'>Fieger Lamellenfenster</a>. A company which is specialized in building louvre window.<br><strong>However I am also available for freelance work.</strong>",
 			"greetings":"Best regards,"
 		}
 	},
@@ -153,7 +153,7 @@
 		{
 			"id":"pro3",
 			"header1":"PROJECT DESCRIPTION:",
-			"desc":"I have developed and implemented the site in cooparation. The programming was also in this case from me. For this project I have won two awards, more on that at the end of the site...",
+			"desc":"I have developed and implemented the site in cooperation. The programming was also in this case from me. For this project I have won two awards, more on that at the end of the site...",
 			"client":"JN Mediadesign",
 			"timestamp":"TIMEFRAME:",
 			"timestamp_":"January 2011 - August 2011",
