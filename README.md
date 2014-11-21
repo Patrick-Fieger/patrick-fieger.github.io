@@ -1,3 +1,3 @@
 patrick-fieger.github.io
 ========================
-Personal Website
+Personal Website http://patrick-fieger.github.io
