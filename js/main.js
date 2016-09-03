@@ -30,13 +30,16 @@ $(document).ready(function() {
 
 	$(document).on('click', 'h1,.open_about', function(event) {
 		event.preventDefault();
-		$('.big_overlay').addClass('active');
+		$('.big_overlay').addClass('show active');
 		$('body').addClass('hidden');
 	});
 
 	$(document).on('click touchstart', '.close_', function(event) {
 		event.preventDefault();
 		$('.big_overlay').removeClass('active');
+		setTimeout(function() {
+			$('.big_overlay').removeClass('show');
+		}, 1000);
 		$('body').removeClass('hidden');
 	});
 

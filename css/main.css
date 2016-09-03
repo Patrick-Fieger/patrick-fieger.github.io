@@ -198,9 +198,14 @@ body.hidden{
     align-items: center;
     opacity: 0;
     visibility: hidden;
+    display: none;
     transition: all 1s;
     overflow: scroll;
+}
+
+.big_overlay.show{
     -webkit-overflow-scrolling: touch;
+    display: block;
 }
 
 .big_overlay.active{
