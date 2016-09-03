@@ -35,8 +35,12 @@ a{
     font-size: 20px;
 }
 
-a:hover{
+.notouch a:hover{
     color: #fc4100;
+}
+
+.notouch .close_:hover{
+    cursor: pointer;
 }
 
 ul{
@@ -177,10 +181,6 @@ h2{
     opacity: 1;
 }
 
-/*h1:hover,*/
-.close_:hover{
-    cursor: pointer;
-}
 
 body.hidden{
     overflow: hidden;
