@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$('body').addClass('hidden');
 	});
 
-	$(document).on('click', '.close_', function(event) {
+	$(document).on('click touchstart', '.close_', function(event) {
 		event.preventDefault();
 		$('.big_overlay').removeClass('active');
 		$('body').removeClass('hidden');
