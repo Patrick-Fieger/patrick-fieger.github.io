@@ -249,6 +249,10 @@ body.hidden{
 
 
 @media screen and (max-width: 590px) {
+    body{
+        padding-top: 10px;
+    }
+
     #patrick_bg{
         display: none;
     }
