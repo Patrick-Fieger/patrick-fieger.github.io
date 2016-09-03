@@ -200,6 +200,7 @@ body.hidden{
     visibility: hidden;
     transition: all 1s;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .big_overlay.active{
