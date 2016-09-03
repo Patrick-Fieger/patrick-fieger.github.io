@@ -22,7 +22,11 @@ $(document).ready(function() {
     }, 3000);
     $(document).on('click', 'h1,.open_about', function(event) {
         event.preventDefault();
-        $('.big_overlay').addClass('show active');
+        $('.big_overlay').addClass('show');
+        setTimeout(function() {
+            $('.big_overlay').addClass('active');
+        }, 100);
+
         $('body').addClass('hidden');
     });
     $(document).on('click touchstart', '.close_', function(event) {
