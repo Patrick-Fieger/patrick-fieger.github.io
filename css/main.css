@@ -230,6 +230,7 @@ body.hidden{
 }
 
 .close_{
+    z-index: 10000;
     position: absolute;
     top: 20px;
     right: 20px;
